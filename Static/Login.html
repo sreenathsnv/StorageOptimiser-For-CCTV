@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .login-form {
+      margin: auto;
+      margin-top: 20vh;
+      width: 400px;
+      padding: 20px;
+      background-color: #2b2b2b;
+      border: 2px solid #00bfff;
+      border-radius: 5px;
+    }
+    .company-name {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      display: block;
+      margin: auto;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      font-size: 24px;
+      color: white;
+    }
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4d4d4d;
+      color: white;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .forgot-password {
+      color: #bfbfbf;
+      font-size: 14px;
+      text-align: right;
+    }
+    .home-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      color: white;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-form">
+    <div class="company-name">COMPANYNAME</div>
+    <div class="icon">🧪</div>
+    <form>
+      <input type="email" name="email" placeholder="Email" value="johndoe@company.com">
+      <input type="password" name="password" placeholder="Password" value="********">
+      <input type="submit" value="Login">
+    </form>
+    <div class="forgot-password">Forgot Password?</div>
+  </div>
+  <button class="home-icon">⌂</button>
+</body>
+</html>
+
